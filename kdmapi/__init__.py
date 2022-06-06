@@ -15,7 +15,7 @@ from ctypes import (
 	sizeof,
 )
 from pathlib import Path
-from typing import Any
+from typing import Any, List
 
 from kdmapi.bindings import (
 	DebugInfo,
@@ -40,7 +40,7 @@ from kdmapi.bindings import (
 
 class KDMAPI:
 	@staticmethod
-	def ReturnKDMAPIVer() -> list[int]:
+	def ReturnKDMAPIVer() -> List[int]:
 		"""Return the KDMAPI version from OmniMIDI as the following output: Major.Minor.Build Rev. Revision (eg. 1.30.0 Rev. 51)."""
 		vers = [POINTER(c_ulong)(c_ulong(0)) for _ in range(4)]
 
