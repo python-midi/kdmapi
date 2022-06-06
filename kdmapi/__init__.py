@@ -38,6 +38,11 @@ from kdmapi.bindings import (
 	modMessage,
 )
 
+__version__ = "1.0.0"
+
+module_path = Path(__file__).parent
+current_path = Path.cwd()
+
 class KDMAPI:
 	@staticmethod
 	def ReturnKDMAPIVer() -> List[int]:
