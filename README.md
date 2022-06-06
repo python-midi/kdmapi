@@ -6,6 +6,8 @@ kdmapi provides both C bindings for OmniMIDI.dll and a Python-friendly wrapper f
 
 A [Mido](https://pypi.org/project/mido/) backend is also provided, instructions on how to use it are below
 
+Requires Python 3.8 or greater
+
 ## Installation
 
 ```sh
@@ -29,7 +31,7 @@ KDMAPI.SendDirectData(0x0)
 KDMAPI.TerminateKDMAPIStream()
 ```
 
-# Mido backend
+## Mido backend
 
 You can use KDMAPI as a [Mido](https://pypi.org/project/mido/) output backend
 
@@ -47,7 +49,7 @@ with mido.open_output() as out:
         out.send(msg)
 ```
 
-# License
+## License
 
 ```
 #
