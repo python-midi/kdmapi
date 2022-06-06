@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kdmapi"
-version = "1.0.0"
+version = "1.0.1"
 description = "KDMAPI (Keppy's Direct MIDI API) wrapper for Python"
 authors = ["Sebastiano Barezzi <barezzisebastiano@gmail.com>"]
 license = "LGPL-3.0-or-later"
