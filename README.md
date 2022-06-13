@@ -1,5 +1,8 @@
 # kdmapi
 
+[![PyPi version](https://img.shields.io/pypi/v/kdmapi)](https://pypi.org/project/kdmapi/)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1a367d8d58e34eb6a86b860d1513081f)](https://www.codacy.com/gh/python-midi/kdmapi/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=python-midi/kdmapi&amp;utm_campaign=Badge_Grade)
+
 [KDMAPI (Keppy's Direct MIDI API)](https://github.com/KeppySoftware/OmniMIDI/blob/master/DeveloperContent/KDMAPI.md) wrapper for Python
 
 kdmapi provides both C bindings for OmniMIDI.dll and a Python-friendly wrapper for them
