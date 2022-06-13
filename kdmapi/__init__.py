@@ -38,7 +38,7 @@ from kdmapi.bindings import (
 	modMessage,
 )
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 module_path = Path(__file__).parent
 current_path = Path.cwd()
